@@ -4,5 +4,4 @@ properties([
      blockingJobs: 'ATFUpdater',
      scanQueueFor: 'ALL',
      useBuildBlocker: true],
-   disableConcurrentBuilds()
    ])
