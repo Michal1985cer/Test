@@ -1,6 +1,6 @@
 properties([
     [$class: 'BuildBlockerProperty',
-     blockLevel: 'GLOBAL',
+     blockLevel: 'NODE',
      blockingJobs: 'ATFUpdater',
      scanQueueFor: 'ALL',
      useBuildBlocker: true],
