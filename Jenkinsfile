@@ -1,7 +1,7 @@
 properties([
     [$class: 'BuildBlockerProperty',
-     blockLevel: 'NODE',
-     blockingJobs: '^python3 \\(pipeline\\)/.*',
+     blockLevel: 'GLOBAL',
+     blockingJobs: 'ATFUpdater',
      scanQueueFor: 'ALL',
      useBuildBlocker: true],
    disableConcurrentBuilds()
